@@ -1,0 +1,8 @@
+@media (max-width: 700px) {
+    nav li{
+        margin-left: auto;
+    }
+    header h1{
+        margin-left: auto;
+    }
+}

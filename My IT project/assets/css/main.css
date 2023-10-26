@@ -191,4 +191,18 @@ footer{
     width: 400px;
     margin-top: 10px;
     margin-bottom: 10px;
+    
+}
+.service-item span{
+    display: flex;
+    flex-direction: row;
+}
+.service-item svg{
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.service-item h2, .service-item p{
+    margin-left: 20px;
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
