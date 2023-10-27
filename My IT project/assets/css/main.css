@@ -77,6 +77,8 @@ hr{
     width: 250px;
     outline: 0;
     margin-right: 5px;
+    border: none;
+    border-radius: 5px;
 }
 form{
     display: flex;
@@ -86,11 +88,11 @@ button{
     height: 48px;
     width: 115px;
     background-color: #e8491d;
-	border-color: #e8491d;
     color: #ffffff;
     border-radius: 5px;
     outline: 0;
     inset: 0;
+    border: none;
 }
 button:hover{
 	background-color: #2f4f4f;
