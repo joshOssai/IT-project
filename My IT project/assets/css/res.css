@@ -1,3 +1,22 @@
+@media (max-width: 1400px) {
+    body{
+        height: fit-content;
+    }
+}
+@media (min-width: 1000px) {
+    button:hover{
+        background-color: #2f4f4f;
+        cursor: pointer;
+        transition: ease-in;
+        transition: ease-out;
+        transition-duration: 1.5s;
+    }
+    .blog button:hover{
+        background-color: #e8491d;
+        border-color: #2f4f4f;
+        cursor: pointer;
+    }
+}
 @media (max-width: 700px) {
     nav li{
         margin-left: auto;
@@ -36,5 +55,22 @@
     }
     .newsletter button{
         height: 42px;
+    }
+}
+@media (max-width: 495px) {
+    nav li{
+        margin-right: -25px;
+    }
+    .newsletter h2{
+        font-size: 15px;
+    }
+    .newsletter input{
+        height: 20px;
+    }
+    .newsletter button{
+        height: 25px;
+    }
+    .newsletter{
+        display: block;
     }
 }
