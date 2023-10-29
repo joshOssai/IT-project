@@ -74,3 +74,11 @@
         display: block;
     }
 }
+@media (max-width: 540px) {
+    .about{
+        height: fit-content;
+    }
+    .about h3, .about p{
+        font-size: large;
+    }
+}
