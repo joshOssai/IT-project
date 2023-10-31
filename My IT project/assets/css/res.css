@@ -41,6 +41,7 @@
         height: fit-content;
         padding-bottom: 15px;
     }
+
 }
 @media (max-width: 750px) {
     .newsletter h2{
@@ -55,6 +56,39 @@
     }
     .newsletter button{
         height: 42px;
+    }
+    nav ul{
+        float: none;
+        margin-left: auto;
+        display: flex;
+        flex-direction: row;
+    }
+    .para h3{
+        font-size: medium;
+    }
+    .para p{
+        font-size: small;
+    }
+    header h1{
+        font-size: 30px;
+        margin-left: 0px;
+        margin-top: 40px;
+    }
+    header{
+        height: 70px;
+    }
+    .newsletter button{
+        height: 30px;
+    }
+    .newsletter input{
+        height: 28px;
+        width: 150px;
+    }
+    .newsletter{
+        display: block;
+    }
+    .hero-background h2{
+        font-size: 33px;
     }
 }
 @media (max-width: 495px) {
@@ -78,15 +112,16 @@
     .about{
         height: fit-content;
     }
-    .about h3, .about p{
-        font-size: large;
+    nav ul{
+        float: none;
+        margin-left: auto;
+        display: flex;
+        flex-direction: row;
     }
 }
 @media (max-width:480px) {
     header h1{
-        font-size: large;
-        margin-left: 0px;
-        margin-bottom: -20px;
+        font-size: 20px;
     }
     header{
         height: 40px;
@@ -106,9 +141,11 @@
     }
     .hero-background h2{
         font-size: 25px;
+        margin-left: auto;
     }
     .hero-background p{
         font-size: 10px;
+        margin-left: auto;
     }
     .blog p{
         font-size: 10px;
@@ -155,5 +192,33 @@
     }
     nav{
         font-size: 10px;
+    }
+}
+@media (max-width: 526px) {
+    nav{
+        font-size: small;
+        margin-right: 0px;
+    }
+    .hero-background h2{
+        font-size: 30px;
+    }
+}
+@media (max-width: 350px) {
+    nav{
+        font-size: x-small;
+    }
+    .hero-background h2{
+        font-size: 18px;
+    }
+    .hero-background p{
+        font-size: 9px;
+    }
+}
+@media (max-width: 285px) {
+    header h1{
+        font-size: x-small;
+    }
+    nav{
+        font-size: x-small;
     }
 }
