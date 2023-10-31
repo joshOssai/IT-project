@@ -82,3 +82,78 @@
         font-size: large;
     }
 }
+@media (max-width:480px) {
+    header h1{
+        font-size: large;
+        margin-left: 0px;
+        margin-bottom: -20px;
+    }
+    header{
+        height: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav ul{
+        float: none;
+        margin-left: auto;
+        display: flex;
+        flex-direction: row;
+    }
+    nav{
+        font-size: 12px;
+    }
+    .hero-background h2{
+        font-size: 25px;
+    }
+    .hero-background p{
+        font-size: 10px;
+    }
+    .blog p{
+        font-size: 10px;
+    }
+    .blog button{
+        height: 30px;
+        width: 80px;
+    }
+    footer p{
+        font-size: 10px;
+    }
+    footer{
+        height: fit-content;
+    }
+    .developer-image{
+        width: 50px;
+        height: 50px;
+    }
+    .dev p{
+        font-size: 10px;
+        margin-top: 30px;
+    }
+    .para h3{
+        font-size: medium;
+    }
+    .para p{
+        font-size: small;
+    }
+    .service-item h2, .service-item p{
+        font-size: medium;
+    }
+    .service-item svg{
+        width: 10px;
+        height: 10px;
+        margin-top: 20px;
+    }
+    .service-item{
+        height: fit-content;
+    }
+}
+@media (max-width: 385px) {
+    header h1{
+        font-size: small;
+    }
+    nav{
+        font-size: 10px;
+    }
+}
