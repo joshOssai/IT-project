@@ -204,7 +204,25 @@ footer{
     width: 400px;
     margin-top: 10px;
     margin-bottom: 10px;
-    
+}
+.service-item:first-of-type{
+    background-color: #2f4f4f;
+}
+.service-item:nth-of-type(2){
+    background-color: #e8491d;
+}
+.service-item:nth-of-type(3){
+    background-color: #2f4f4f;
+}
+.service-item:nth-of-type(4){
+    background-color: #e8491d;
+}
+.service-item:nth-of-type(5){
+    background-color: #2f4f4f;
+}
+.service-item:last-of-type{
+    background-color: #e8491d;
+    opacity: 1;
 }
 .service-item span{
     display: flex;
