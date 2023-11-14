@@ -222,3 +222,15 @@
         font-size: x-small;
     }
 }
+@media (max-width: 680px){
+    .more-stuff span{
+        font-size: 15px;
+    }
+    .more-stuff p{
+        font-size: 12px;
+    }
+    .more-stuff svg{
+        height: 18px;
+        width: auto;
+    }
+}
